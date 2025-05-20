@@ -27,7 +27,7 @@ Posteriormente, se procedió a la migración del entorno hacia **Amazon Web Serv
 
 ----------
 
-## 🗂️ Índice
+## 🗂️Índice
 
 
 
