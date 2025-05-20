@@ -35,7 +35,7 @@ Posteriormente, se procedió a la migración del entorno hacia **Amazon Web Serv
 <details open>
   <summary> Tabla de Contenidos</summary>
   <ol>
-    <li><a href="#1-objetivo-del-proyecto">Objetivo del Proyecto</a>
+    <li><a href="#Objetivo-del-proyecto">Objetivo del Proyecto</a>
       <ul>
         <li><a href="#escenario-actual-on-premise">Escenario Actual (On-Premise)</a></li>
         <li><a href="#solución-migración-a-aws">Solución: Migración a AWS</a></li>
