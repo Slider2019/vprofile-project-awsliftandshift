@@ -150,7 +150,7 @@ Posteriormente, se procedió a la migración del entorno hacia **Amazon Web Serv
 
 ---
 
-## 1.-Objetivo del proyecto
+## 1.- Objetivo del proyecto
 
 Migrar la aplicación vProfile desde un entorno local On-Premise con Vagrant a la nube de AWS usando la estrategia de Lift and Shift.
 <p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
