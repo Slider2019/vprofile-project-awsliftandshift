@@ -624,6 +624,9 @@ Se han reemplazado IPs duras por nombres DNS gestionados por Route 53. Esto:
 
 Este fragmento describe todo el flujo de trabajo para construir y desplegar un artefacto en una instancia EC2 con Tomcat, utilizando AWS S3 como repositorio temporal.
 
+![Diagrama Artifact S3, Tomcat y EC2](https://github.com/user-attachments/assets/8ec83935-ecbc-49c4-8284-c8c830fdf30f)
+
+
 ----------
 
 ### Despliegue de artefacto con Maven, AWS S3 y Tomcat
