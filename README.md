@@ -27,7 +27,7 @@ Posteriormente, se procedió a la migración del entorno hacia **Amazon Web Serv
 
 ----------
 
-## 🗂️Índice
+## Índice
 
 
 
@@ -153,7 +153,7 @@ Posteriormente, se procedió a la migración del entorno hacia **Amazon Web Serv
 ## 1.- Objetivo del proyecto
 
 Migrar la aplicación vProfile desde un entorno local On-Premise con Vagrant a la nube de AWS usando la estrategia de Lift and Shift.
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ---
 
@@ -176,7 +176,7 @@ Migrar la aplicación vProfile desde un entorno local On-Premise con Vagrant a l
 -   Infraestructura elástica
 -   Automatización completa
 -   Mayor agilidad y fiabilidad
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ---
 
@@ -214,7 +214,7 @@ Usuarios -> GoDaddy DNS -> ALB (HTTPS con ACM)
 
 
 ```
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -237,7 +237,7 @@ Usuarios -> GoDaddy DNS -> ALB (HTTPS con ACM)
 8.  🔁 **Crear Auto Scaling Group** para Tomcat
 9.  ✅ Verificación
 
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 
 ----------
@@ -272,7 +272,7 @@ Usuarios -> GoDaddy DNS -> ALB (HTTPS con ACM)
 ![2 - Creando Grupo de Seguridad para la Aplicación (Tomcat) y Acceso SSH](https://github.com/user-attachments/assets/7dac0de7-93bc-4884-a366-a024a937190f)
 
 
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 
 ----------
@@ -302,7 +302,7 @@ memcached.port=11211
 rabbitmq.port=5672
 ```
 
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 
 ----------
@@ -326,7 +326,7 @@ rabbitmq.port=5672
 -   Comprender **cómo fluye el tráfico** entre servicios te convierte en un mejor ingeniero DevOps.
 -   Las capturas de pantalla aquí expuestas no contienen informnación sensible, además se realizó una limpieza total al finalizar el proyecto
   
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ![SG CREADOS](https://github.com/user-attachments/assets/84547aff-661f-4a24-9aa8-632dbc91d6a1)
 
@@ -351,7 +351,7 @@ Cada una aprovisionada automáticamente con un script `userdata`.
 
 
 
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -377,7 +377,7 @@ Pasos:
 4.  Elegir ubicación (por ejemplo, `D:\Downloads\vprofile-project`).
 5.  Abrir carpeta `UserData`.
 
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -404,7 +404,7 @@ Pasos:
     -   Crear el usuario `admin` y darle privilegios
     -   Importar el esquema
 
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -427,7 +427,7 @@ Pasos:
 -   Reinicia el servicio
 -   Verifica con `netstat` si escucha en el puerto `11211`
 
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -458,7 +458,7 @@ Pasos:
 
 💡 Alternativa: Se podría escribir el contenido del archivo `.repo` directamente en el script usando `cat <<EOF`, pero éste se volvería más desordenado.
 
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 
 ----------
@@ -482,7 +482,7 @@ Pasos:
 
 💡 Se eligió Ubuntu para demostrar lo sencillo que puede ser el aprovisionamiento en comparación con CentOS.
 
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -501,7 +501,7 @@ Pasos:
 
 ✅ Se etiquetaron también los **volúmenes** (no solo la instancia) para evitar eliminación accidental o consumo innecesario de espacio.
 
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 
 ![7 - Instanacias EC2 Corriendo](https://github.com/user-attachments/assets/5f08420f-3847-41cc-88e6-b1b0f6ad0eef)
@@ -534,7 +534,7 @@ Porque:
 -   Modificar manualmente el código o los archivos `.properties` cada vez que cambia una IP no es muy práctico.
 -   Usar nombres es más limpio y mantiene el código desacoplado de la infraestructura.
 
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -569,7 +569,7 @@ Porque:
 ```
 
 🛑 **Importante**: Solo usar **IP privadas**, _no públicas_.
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -594,7 +594,7 @@ Repetir para `mc01` y `rmq01`.
 
 -   Se verificaron que todas las IPs mostradas en los pings sean **privadas** (tipo `172.x.x.x` o `10.x.x.x`)
 -   Me aseguré de que los nombres usados en los archivos de configuración coincidan con los que definidos en Route 53.
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -616,7 +616,7 @@ Se han reemplazado IPs duras por nombres DNS gestionados por Route 53. Esto:
 -   Facilita la escalabilidad
 -   Es una **mejor práctica DevOps**
 
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -644,7 +644,7 @@ Este fragmento describe todo el flujo de trabajo para construir y desplegar un a
 -   💻 **VS Code** (o terminal equivalente)
 -   🧑‍💻 **Credenciales IAM con privilegios de administrador (No ROOT)**
 
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -679,7 +679,7 @@ Este fragmento describe todo el flujo de trabajo para construir y desplegar un a
 -   Aplicar el rol a la instancia EC2:
     -   Ir a **Instancias > Acciones > Seguridad > Modificar rol IAM**
     -   Seleccionar `nombreservicio-admin-role`.
-   <p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+   <p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -711,7 +711,7 @@ aws configure
 > 💡 Se pueden editar con cualquier editor si se llegasen a cometer
 > errores.
 
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -770,7 +770,7 @@ aws s3 cp target/v-profile-v2:var.war s3://NOMBRE_DEL_BUCKET/
 ![5 - Subiendo artifact a S3 bucket](https://github.com/user-attachments/assets/1e478a6d-ab88-4fe3-9b3b-32da0fc6c7eb)
 
 
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 
 ----------
@@ -810,7 +810,7 @@ aws s3 cp target/v-profile-v2:var.war s3://NOMBRE_DEL_BUCKET/
     
     
     ```
-    <p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+    <p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -855,7 +855,7 @@ sudo mv v-profile-v2.war /opt/tomcat/webapps/
 🔧 Nos aseguramos de que Tomcat esté instalado en `/opt/tomcat/`. Si no, ajustamos la ruta.
 
 
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -890,7 +890,7 @@ http://<dominio-o-ip>:8080/v-profile-v2
 ```
 
 🟢 Si todo está bien, deberíamos ver la aplicación desplegada y funcionando correctamente.
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -917,7 +917,7 @@ Esta sección trata sobre la **verificación de servicios, configuración del Lo
     
     -   Deberíamos ver la pantalla de inicio de sesión de Tomcat.
     -   Solo es una prueba. La conexión real será a través del ELB.
-   <p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+   <p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -944,7 +944,7 @@ Esta sección trata sobre la **verificación de servicios, configuración del Lo
 -   Añadir como objetivo ➝ Crear el grupo
 
 
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -986,7 +986,7 @@ Esta sección trata sobre la **verificación de servicios, configuración del Lo
 4.  Guardamos el registro
 
 🎯 Si no se cuenta con un dominio, de todas formas se puede acceder con el **DNS del ELB directamente**, pero sin conexión HTTPS.
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -1024,7 +1024,7 @@ Esta sección trata sobre la **verificación de servicios, configuración del Lo
 
     
     ✅ El certificado debe decir “válido” y mostrar que viene de **Amazon** (emitido por ACM).
-    <p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+    <p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
     
 
 ----------
@@ -1044,7 +1044,7 @@ Esta sección trata sobre la **verificación de servicios, configuración del Lo
     -   Hacemos clic en un usuario
     -   Primera vez: “datos desde la base de datos”
     -   Segunda vez: “datos desde la caché”
-    <p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+    <p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -1077,7 +1077,7 @@ Para configurar un Auto Scaling Group (ASG), se requieren tres elementos princip
 3.  Asignamos un nombre a la imagen (por ejemplo, `lets-app-ami`) y una descripción.
 4.  Hacemos clic en **Create Image**.
 5.  Podemos revisar el progreso en la sección **AMIs**, donde el estado estará en "pending" hasta que se complete.
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ![1 - Creando una AMI desde la instancia app01](https://github.com/user-attachments/assets/a301da72-c147-4569-9dbb-69d4bc96f596)
 
@@ -1099,7 +1099,7 @@ Una vez que la AMI esté lista:
     -   `Project`: `v-profile` (Nos aseguramos de marcar que aplique también a volúmenes).
 8.  En **Advanced details** podemos asignar un **IAM role** (opcional en esta etapa, pero importante en entornos reales o CI/CD).
 9.  Hacemos clic en **Create launch template**.
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p> 
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p> 
 
 ----------
 
@@ -1130,7 +1130,7 @@ Una vez que la AMI esté lista:
     -   Por ejemplo, escala hacia fuera si el promedio de CPU supera el **50%**.
     -   Escala hacia dentro si baja del 50%.
 3.  Podemos optar también por solo escalar hacia fuera, desactivando el escalado hacia dentro si preferimos manejarlo manualmente.
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -1152,7 +1152,7 @@ Una vez que la AMI esté lista:
         -   `Launch failure`
         -   `Termination failure`
    -   Esto hará que AWS nos envíe correos electrónicos según lo definido arriba.
-   <p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+   <p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -1174,7 +1174,7 @@ Con esto:
 -   El ASG manejará el escalado según la carga real del sistema.
 -   El balanceador de carga distribuirá y verificará el estado de las instancias activas.
 -   Podremos recibir notificaciones y proteger instancias según nuestras necesidades.
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -1195,7 +1195,7 @@ Con esto:
     -   Podemos acceder usando el **DNS del Load Balancer**.
 -   🔗 Si contamos con un dominio (ej. en GoDaddy):
     -   Nos aseguramos de haber creado el **registro CNAME** apuntando al DNS del ELB.
- <p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+ <p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -1206,7 +1206,7 @@ Con esto:
     -   **Contraseña:** `contraseña`
 -   Verificamos que servicios como `RabbitMQ`, `Memcached` funcionen.
 -   Si al actualizar no pasa nada ➡️ probablemente el _Stickiness esté desactivado_.
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -1248,7 +1248,7 @@ Con esto:
 4.  ⚖️ Configuramos un Load Balancer con certificado HTTPS (ACM).
 5.  🔁 Movimos la instancia a un Auto Scaling Group.
 6.  🌐 Implementamos entradas DNS privadas en Route 53 para comunicación interna.
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----
 ### Resumen final del proyecto
@@ -1260,7 +1260,7 @@ Este proyecto no sólo representa una migración técnica, sino también una opo
 
 Finalmente, se realizó un proceso de **limpieza controlada** del entorno, eliminando recursos no persistentes como grupos de Auto Scaling, instancias, snapshots, AMIs, registros DNS, buckets de S3 y otros componentes temporales, siguiendo buenas prácticas para evitar costos innecesarios.
 
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 
 ----------
@@ -1276,7 +1276,7 @@ Finalmente, se realizó un proceso de **limpieza controlada** del entorno, elimi
 -   🔐 **Configuración HTTPS**: Integrar certificados de ACM y habilitar HTTPS en el ALB presentó retos de compatibilidad inicial.
     
 -   🔄 **Persistencia de datos**: Dado que el modelo Lift & Shift no implica rediseñar la aplicación, fue necesario asegurar almacenamiento persistente con EBS sin modificar la lógica del backend.
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ---
 
@@ -1287,7 +1287,7 @@ Finalmente, se realizó un proceso de **limpieza controlada** del entorno, elimi
 -   🧠 Comprender el modelo de responsabilidad compartida y los servicios de AWS es fundamental para mantener entornos seguros y escalables.
     
 -   📝 Documentar cada paso y entender el flujo general ayuda a replicar y explicar la arquitectura en contextos profesionales.
- <p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+ <p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ---
 
@@ -1308,7 +1308,7 @@ ___
 
 En la siguiente fase de mi roadmap, la aplicación será **rediseñada**  para adoptar una arquitectura más moderna, utilizando **contenedores Docker, orquestación con Kubernetes**, e integración con **CI/CD pipelines**  para despliegues automatizados. Lo que me preparará y me dará las bases para avanzar hacia herramientas más avanzadas y actuales.
 
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ----------
 
@@ -1317,7 +1317,7 @@ En la siguiente fase de mi roadmap, la aplicación será **rediseñada**  para a
 ----------
 
 🚀 **Si, has llegado hasta aquí, ¡Gracias por leer!. Si te interesa ver el código o probarlo, clona el repo y comienza tu propia aventura y si tienes alguna consulta o duda, enviame un mensaje privado por linkedin**
-<p align="right">(<a href="#🗂️-índice">Volver al inicio</a>)</p>
+<p align="right">(<a href="#-índice">Volver al inicio</a>)</p>
 
 ---
 
